@@ -9,21 +9,35 @@
 /* Begin PBXBuildFile section */
 		AC48E4002553E33C006A3D44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC48E3FF2553E33C006A3D44 /* AppDelegate.swift */; };
 		AC48E4022553E33C006A3D44 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC48E4012553E33C006A3D44 /* SceneDelegate.swift */; };
-		AC48E4042553E33C006A3D44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC48E4032553E33C006A3D44 /* ViewController.swift */; };
-		AC48E4072553E33C006A3D44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC48E4052553E33C006A3D44 /* Main.storyboard */; };
 		AC48E4092553E33D006A3D44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC48E4082553E33D006A3D44 /* Assets.xcassets */; };
 		AC48E40C2553E33D006A3D44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC48E40A2553E33D006A3D44 /* LaunchScreen.storyboard */; };
+		AC48E4192553E428006A3D44 /* MainPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC48E4182553E428006A3D44 /* MainPageVC.swift */; };
+		AC48E41C2553E46F006A3D44 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC48E41B2553E46F006A3D44 /* Constants.swift */; };
+		AC48E4212553E94A006A3D44 /* TopGamesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC48E4202553E94A006A3D44 /* TopGamesCell.swift */; };
+		AC48E4242553EC8A006A3D44 /* TopGames.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC48E4232553EC8A006A3D44 /* TopGames.swift */; };
+		AC48E4272553EEAB006A3D44 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC48E4262553EEAB006A3D44 /* NetworkManager.swift */; };
+		AC48E42A2553F207006A3D44 /* TGError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC48E4292553F207006A3D44 /* TGError.swift */; };
+		AC48E42E25541065006A3D44 /* UIView+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC48E42D25541065006A3D44 /* UIView+ext.swift */; };
+		AC48E43125541EAC006A3D44 /* PersistanceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC48E43025541EAC006A3D44 /* PersistanceManager.swift */; };
+		AC48E434255424AE006A3D44 /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC48E433255424AE006A3D44 /* NetworkMonitor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AC48E3FC2553E33C006A3D44 /* Twitch Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Twitch Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC48E3FF2553E33C006A3D44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC48E4012553E33C006A3D44 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AC48E4032553E33C006A3D44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AC48E4062553E33C006A3D44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC48E4082553E33D006A3D44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC48E40B2553E33D006A3D44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC48E40D2553E33D006A3D44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC48E4182553E428006A3D44 /* MainPageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageVC.swift; sourceTree = "<group>"; };
+		AC48E41B2553E46F006A3D44 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		AC48E4202553E94A006A3D44 /* TopGamesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopGamesCell.swift; sourceTree = "<group>"; };
+		AC48E4232553EC8A006A3D44 /* TopGames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopGames.swift; sourceTree = "<group>"; };
+		AC48E4262553EEAB006A3D44 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		AC48E4292553F207006A3D44 /* TGError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TGError.swift; sourceTree = "<group>"; };
+		AC48E42D25541065006A3D44 /* UIView+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+ext.swift"; sourceTree = "<group>"; };
+		AC48E43025541EAC006A3D44 /* PersistanceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistanceManager.swift; sourceTree = "<group>"; };
+		AC48E433255424AE006A3D44 /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +70,78 @@
 		AC48E3FE2553E33C006A3D44 /* Twitch Demo */ = {
 			isa = PBXGroup;
 			children = (
-				AC48E3FF2553E33C006A3D44 /* AppDelegate.swift */,
-				AC48E4012553E33C006A3D44 /* SceneDelegate.swift */,
-				AC48E4032553E33C006A3D44 /* ViewController.swift */,
-				AC48E4052553E33C006A3D44 /* Main.storyboard */,
-				AC48E4082553E33D006A3D44 /* Assets.xcassets */,
-				AC48E40A2553E33D006A3D44 /* LaunchScreen.storyboard */,
+				AC48E44125542C56006A3D44 /* Extentions */,
+				AC48E43E25542C45006A3D44 /* Utilities */,
+				AC48E43625542C09006A3D44 /* Managers */,
+				AC48E43A25542C25006A3D44 /* Model */,
+				AC48E43C25542C2E006A3D44 /* Views */,
+				AC48E43825542C15006A3D44 /* Screen */,
+				AC48E44325542C5F006A3D44 /* Support */,
 				AC48E40D2553E33D006A3D44 /* Info.plist */,
 			);
 			path = "Twitch Demo";
+			sourceTree = "<group>";
+		};
+		AC48E43625542C09006A3D44 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				AC48E43025541EAC006A3D44 /* PersistanceManager.swift */,
+				AC48E4262553EEAB006A3D44 /* NetworkManager.swift */,
+				AC48E433255424AE006A3D44 /* NetworkMonitor.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		AC48E43825542C15006A3D44 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				AC48E4182553E428006A3D44 /* MainPageVC.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		AC48E43A25542C25006A3D44 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AC48E4232553EC8A006A3D44 /* TopGames.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AC48E43C25542C2E006A3D44 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AC48E4202553E94A006A3D44 /* TopGamesCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AC48E43E25542C45006A3D44 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				AC48E41B2553E46F006A3D44 /* Constants.swift */,
+				AC48E4292553F207006A3D44 /* TGError.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		AC48E44125542C56006A3D44 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				AC48E42D25541065006A3D44 /* UIView+ext.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		AC48E44325542C5F006A3D44 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				AC48E3FF2553E33C006A3D44 /* AppDelegate.swift */,
+				AC48E4012553E33C006A3D44 /* SceneDelegate.swift */,
+				AC48E4082553E33D006A3D44 /* Assets.xcassets */,
+				AC48E40A2553E33D006A3D44 /* LaunchScreen.storyboard */,
+			);
+			path = Support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +203,6 @@
 			files = (
 				AC48E40C2553E33D006A3D44 /* LaunchScreen.storyboard in Resources */,
 				AC48E4092553E33D006A3D44 /* Assets.xcassets in Resources */,
-				AC48E4072553E33C006A3D44 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,23 +213,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC48E4042553E33C006A3D44 /* ViewController.swift in Sources */,
+				AC48E434255424AE006A3D44 /* NetworkMonitor.swift in Sources */,
+				AC48E4192553E428006A3D44 /* MainPageVC.swift in Sources */,
+				AC48E42A2553F207006A3D44 /* TGError.swift in Sources */,
 				AC48E4002553E33C006A3D44 /* AppDelegate.swift in Sources */,
+				AC48E4212553E94A006A3D44 /* TopGamesCell.swift in Sources */,
+				AC48E4272553EEAB006A3D44 /* NetworkManager.swift in Sources */,
+				AC48E43125541EAC006A3D44 /* PersistanceManager.swift in Sources */,
 				AC48E4022553E33C006A3D44 /* SceneDelegate.swift in Sources */,
+				AC48E42E25541065006A3D44 /* UIView+ext.swift in Sources */,
+				AC48E41C2553E46F006A3D44 /* Constants.swift in Sources */,
+				AC48E4242553EC8A006A3D44 /* TopGames.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		AC48E4052553E33C006A3D44 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AC48E4062553E33C006A3D44 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AC48E40A2553E33D006A3D44 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -296,7 +372,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ziyomukhammad.Twitch-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +391,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ziyomukhammad.Twitch-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
